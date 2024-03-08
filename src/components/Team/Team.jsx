@@ -13,8 +13,6 @@ const Team = () => {
       <div className="card-row">
       <div className="image-section">
             <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
-            <h2>Column 1</h2>
-            <p>Some text..</p>
           </div>
       <div className="container-a">
       <div className="text-section">
@@ -38,8 +36,6 @@ const Team = () => {
       <div className="container-b">
       <div className="text-section">
       <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
-          <h2>Column 2</h2>
-        <p>Some text..</p>
         </div>
         </div>
        </div>
@@ -48,12 +44,10 @@ const Team = () => {
       <br/>
       <br/>
 
-      <div className='super-container'>
+      {/* <div className='super-container'>
       <div className="card-row">
       <div className="image-section">
             <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
-            <h2>Column 1</h2>
-            <p>Some text..</p>
           </div>
       <div className="container-a">
       <div className="text-section">
@@ -77,15 +71,13 @@ const Team = () => {
       <div className="container-b">
       <div className="text-section">
       <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
-          <h2>Column 2</h2>
-        <p>Some text..</p>
         </div>
         </div>
        </div>
        
       </div>
       <br/>
-      <br/>
+      <br/> */}
 
 
     </div> 

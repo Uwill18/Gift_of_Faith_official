@@ -1,8 +1,31 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import './Contact.css'
+import './Contact.css';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_263uo2o', 'template_09719ts', form.current, {
+        publicKey: 'mPSFhBKSQNYxDamR9',
+      })
+      .then(
+        () => {
+          e.target.reset();
+          console.log('SUCCESS!');
+          alert('Email sent!')
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+
   return (
     <div className='contact-body'>
       {/* <h1 className="contactPageTitle">Contact Me</h1>
@@ -26,20 +49,20 @@ const Contact = () => {
               <br/>
               <br/>
               <p>
-                <strong>Phone: 0773794413 </strong>
+                <strong>Phone: 077-379-4413 </strong>
               </p>
             </address>
             <p>Our office hours are Monday through Friday, 9:00 AM to 5:00 PM (EST). We strive to respond to all inquiries within 24 hours during regular business days.
 Thank you for your interest in contacting us! We look forward to assisting you.</p>
             </Col>
             <Col lg='7' className='d-flex align-items-center'>
-              <form className='contact__form w-100'>
+              <form ref={form} className='contact__form w-100' onSubmit={sendEmail}>
                 <Row>
                   <Col lg='6' className='form-group'>
                     <input
                       className='form-control'
                       id="name"
-                      name="name"
+                      name="your_name"
                       placeholder='Name'
                       type="text"
                     />
@@ -48,7 +71,7 @@ Thank you for your interest in contacting us! We look forward to assisting you.<
                     <input
                       className='form-control rounded-0'
                       id="email"
-                      name="email"
+                      name="your_email"
                       placeholder='Email'
                       type="email"
                     />
