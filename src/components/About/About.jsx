@@ -18,8 +18,10 @@ import {MdOutlineArrowDropDown} from 'react-icons/md';
 const About = () => {
   return (
 <div>
-    <h1>About</h1>
-<div className="row">
+  <span className="abouttitle">
+  <h1>About</h1>
+  </span>
+<div className="card-row">
   <div className="history_column">
     <h2>Column 1</h2>
     <p>Some text..</p>

@@ -56,8 +56,10 @@
     margin-left: 7.5%;
 }
 
-h1{
+span > h1{
     text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 7.5rem;
 }
 
 

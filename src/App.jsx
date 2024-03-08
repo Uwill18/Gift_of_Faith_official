@@ -8,6 +8,7 @@ import Services from "./components/Services/Services";
 import Mission_Accordion from "./components/Accordions/Mission_Accordion";
 import About from "./components/About/About";
 import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
        <Residencies/>
        <Team/>
       <About/>
+      <Contact/>
       {/*<Mission/>
       <Services/> */}
     </div>

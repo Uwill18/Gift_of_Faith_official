@@ -6,27 +6,29 @@ import * as bootstrap from 'bootstrap'
 const Team = () => {
   return (
     <div>
-      <h1>Meet the Team!</h1>
+      <span className="teamname">
+         <h1>Meet the Team!</h1>
+      </span>
       <div className='super-container'>
-      <div className="row">
-      <div className="container">
+      <div className="card-row">
+      <div className="image-section">
+            <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+          </div>
+      <div className="container-a">
       <div className="text-section">
           <h2>Column 2</h2>
         <p>Some text..</p>
         </div>
         </div>
-          <div className="image-section">
-            <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-          </div>
        </div>
       </div>
       <br/>
       <br/>
 
       <div className='super-container'>
-      <div className="row">
+      <div className="card-row">
       <div className="image-section-c">
       <div className="text-section">
           <h2>Column 2</h2>
@@ -45,26 +47,27 @@ const Team = () => {
       </div>
       <br/>
       <br/>
+
       <div className='super-container'>
-      <div className="row">
-      <div className="container">
+      <div className="card-row">
+      <div className="image-section">
+            <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+          </div>
+      <div className="container-a">
       <div className="text-section">
           <h2>Column 2</h2>
         <p>Some text..</p>
         </div>
         </div>
-          <div className="image-section">
-            <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-          </div>
        </div>
       </div>
       <br/>
       <br/>
 
       <div className='super-container'>
-      <div className="row">
+      <div className="card-row">
       <div className="image-section-c">
       <div className="text-section">
           <h2>Column 2</h2>
@@ -86,6 +89,7 @@ const Team = () => {
 
 
     </div> 
+    
   )
 }
 
