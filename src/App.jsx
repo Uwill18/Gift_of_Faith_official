@@ -14,7 +14,6 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div className="App">
-      
       <div>
       <div className="white-gradient"/>
       <Header/>
@@ -22,12 +21,10 @@ function App() {
       </div>
       <div className="app_background">
       <Companies/>
-       <Residencies/>
-       <Team/>
+      <Residencies/>
+      <Team/>
       <About/>
       <Contact/>
-      {/*<Mission/>
-      <Services/> */}
     </div>
   </div>
   );

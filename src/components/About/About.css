@@ -1,3 +1,13 @@
+.about_section{
+    height: 100%;
+    text-align: left;
+}
+
+
+.description{
+    text-align: left;
+}
+
 .v-container .image-container{
     border: 8px solid rgb(232 232 232 /93%);
 }
@@ -69,7 +79,7 @@ span > h1{
     float: left;
     width: 27.5%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#aaa; */
     margin-left: 9%;
   }
@@ -78,7 +88,7 @@ span > h1{
     float: left;
     width: 27.5%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#bbb; */
   }
 
@@ -87,7 +97,7 @@ span > h1{
     float: left;
     width: 27.5%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#ccc; */
   }
   
