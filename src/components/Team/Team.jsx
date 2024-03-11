@@ -5,7 +5,7 @@ import * as bootstrap from 'bootstrap'
 
 const Team = () => {
   return (
-    <div>
+    <div id="team">
       <span className="teamname">
          <h1>Meet the Team!</h1>
       </span>

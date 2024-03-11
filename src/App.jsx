@@ -9,15 +9,26 @@ import Mission_Accordion from "./components/Accordions/Mission_Accordion";
 import About from "./components/About/About";
 import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
-
+import {BrowserRouter, Routes, Route, Link, NavLink} from "react-router-dom";
+import Projects from "./components/ProjectGallery/Projects";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <div>
+       <div>
       <div className="white-gradient"/>
-      <Header/>
-      <Hero/>
+      {/* <Header> */}
+    <BrowserRouter>
+    <Routes>
+        {/* <NavLink to={<Home/>}>Home</NavLink> */}
+        <Route index element={<Home/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/team" element={<Team/>}/>
+    </Routes>
+    </BrowserRouter>
+  {/* </Header> */}
+      {/* <Hero/>
       </div>
       <div className="app_background">
       <Companies/>
@@ -25,8 +36,10 @@ function App() {
       <Team/>
       <About/>
       <Contact/>
+      <Projects/> */}
     </div>
   </div>
+
   );
 }
 

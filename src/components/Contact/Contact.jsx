@@ -27,7 +27,7 @@ const Contact = () => {
 
 
   return (
-    <div className='contact-body'>
+    <div className='contact-body' id="contact">
       {/* <h1 className="contactPageTitle">Contact Me</h1>
       <span className="contactDesc">Please fill out the form below to discuss any work opportunities</span>
         <form className="" action=""></form> */}

@@ -17,7 +17,7 @@ import {MdOutlineArrowDropDown} from 'react-icons/md';
 
 const About = () => {
   return (
-<div className='about_section'>
+<div className='about_section' id="about">
   <span className="abouttitle">
   <h1>About</h1>
   </span>
