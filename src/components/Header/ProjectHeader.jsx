@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import {BrowserRouter, Routes, Route, NavLink} from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
-import Projects from '../ProjectGallery/Projects';
+import Projects from '../Projects/ProjectGallery/Projects';
 import App from '../../App';
 import Home from '../Home/Home';
 import Team from '../Team/Team';
@@ -11,7 +11,7 @@ const ProjectHeader = () => {
   return (
     <nav className="h-wrapper">
     <div className="flexCenter paddings h-container">
-    <NavLink to="/" element={<Home/>} className='companyName'>
+   <NavLink to="/" element={<Home/>} className='companyName'>
     <img src="./mariposa.png" alt="logo" width={75}/>
       <strong><em>Gift of Faith Consultants</em></strong>
       </NavLink>    

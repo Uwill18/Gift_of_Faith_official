@@ -10,7 +10,7 @@ import About from "./components/About/About";
 import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
 import {BrowserRouter, Routes, Route, Link, NavLink} from "react-router-dom";
-import Projects from "./components/ProjectGallery/Projects";
+import Projects from "./components/Projects/ProjectGallery/Projects";
 import Home from "./components/Home/Home";
 
 function App() {

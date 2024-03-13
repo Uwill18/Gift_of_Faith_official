@@ -6,7 +6,7 @@ import Residencies from '../Residencies/Residencies'
 import Team from '../Team/Team'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
-import Projects from '../ProjectGallery/Projects'
+import Projects from '../Projects/ProjectGallery/Projects'
 import './Home.css'
 
 const Home = () => {

@@ -59,6 +59,12 @@ a {
   justify-content: center;
   align-items: flex-start;
 }
+.flexRowStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
 .flexColEnd {
   display: flex;
   flex-direction: column;
