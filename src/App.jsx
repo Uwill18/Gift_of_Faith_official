@@ -23,8 +23,10 @@ function App() {
     <Routes>
         {/* <NavLink to={<Home/>}>Home</NavLink> */}
         <Route index element={<Home/>}/>
+        <Route path="/projects#home" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/team" element={<Team/>}/>
+        <Route path="/projects#home" element={<Home/>}/>
     </Routes>
     </BrowserRouter>
   {/* </Header> */}

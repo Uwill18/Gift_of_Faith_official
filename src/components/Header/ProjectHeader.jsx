@@ -7,22 +7,20 @@ import App from '../../App';
 import Home from '../Home/Home';
 import Team from '../Team/Team';
 
-const Header = () => {
+const ProjectHeader = () => {
   return (
     <nav className="h-wrapper">
     <div className="flexCenter paddings h-container">
-      <span>
     <NavLink to="/" element={<Home/>} className='companyName'>
     <img src="./mariposa.png" alt="logo" width={75}/>
       <strong><em>Gift of Faith Consultants</em></strong>
-      </NavLink>
-      </span>      
+      </NavLink>    
       <div className="flexCenter h-menu">
         <NavLink to="/" element={<Home/>}>Home</NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        <Link to="#team" element={<Team/>}>Team</Link>
-        <Link to="#about">About</Link>
-        <button className="button"><Link to="#contact">Contact</Link></button>
+        <Link to="/#team" element={<Team/>}>Team</Link>
+        <Link to="/#about">About</Link>
+        <button className="button"><Link to="/#contact">Contact</Link></button>
         {/* <a href="">Home</a>
         <a href="">Projects</a> */}
         {/* <Link to={<Projects/>}>Projects</Link> */}
@@ -39,4 +37,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default ProjectHeader

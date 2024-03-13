@@ -1,0 +1,62 @@
+/* .hero-image {
+    background-image: url("warehouse.jpg");
+    width: 100%;
+ 
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  } */
+
+/*https://medium.com/@ryaddev/creating-a-stunning-hero-section-in-react-with-styled-components-e84d060f6cdc*/
+
+.lighthero{background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent 10rem),
+  url("warehouse.jpg");
+background-position: center;
+background-size: cover, cover;
+/* background-size:contain;
+background-repeat: no-repeat; */
+min-width: 100%;
+height: fit-content;
+color: #fafafc;
+padding: 15rem 3rem 6rem;
+
+}
+.heroInner {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+span {
+  max-width: 50%;
+}
+.Projects_title, .hero-title {
+  font-weight: 400;
+  font-size: clamp(2rem, 5.5vw, 3.25rem);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  font-family: url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Oswald:200,300,400,500,600,700');
+  background-color: rgba(100,0,0,0.7); 
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+/* @media (max-width: 576px) {
+  background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent), url(https://images.pexels.com/photos/133325/pexels-photo-133325.jpeg?auto=compress&cs=tinysrgb&w=800&h=750&dpr=1);
+  background-position: center, bottom left;
+  background-size: cover, cover;
+  align-items: flex-start;
+  padding-top: 7.5rem;
+  height: 75vh;
+  max-height: 720px;
+} */
+  

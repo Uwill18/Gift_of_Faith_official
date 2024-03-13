@@ -30,11 +30,13 @@
     background-color: #0c0c0c;
     border-radius: 0 !important;
     border: 1px solid #fff;
+  
 }
 
 .contact__form input.form-control{
     margin-bottom: 2em;
-    height: calc(2.5em + .75rem + 2px);   
+    height: calc(2.5em + .75rem + 2px);  
+ 
 }
 
 .btn {
@@ -48,3 +50,6 @@
     background-color: #fff;
 }
 
+#name{
+    color:white;
+}
