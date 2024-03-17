@@ -3,12 +3,20 @@ import ProjectHeader from '../../Header/ProjectHeader';
 import ProjectHero from '../ProjectHero/ProjectHero';
 import ProjectNav from '../ProjectNav/ProjectNav';
 import ProjectTypeFilter from '../ProjectTypes/ProjectTypeFilter';
+import Header from '../../Header/Header';
 
 
 
 const Business = () => {
   return (
-    <div>Business</div>
+    <div>
+      <div>
+      <ProjectHeader/>
+      <ProjectHero/>
+      <ProjectNav/> 
+      </div>
+      <ProjectTypeFilter/>
+    </div>
   )
 }
 

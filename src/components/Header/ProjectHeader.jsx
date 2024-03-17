@@ -6,13 +6,14 @@ import Projects from '../Projects/ProjectGallery/Projects';
 import App from '../../App';
 import Home from '../Home/Home';
 import Team from '../Team/Team';
+import logo from '/mariposa.png';
 
 const ProjectHeader = () => {
   return (
     <nav className="h-wrapper">
     <div className="flexCenter paddings h-container">
    <NavLink to="/" element={<Home/>} className='companyName'>
-    <img src="./mariposa.png" alt="logo" width={75}/>
+    <img src={logo} alt="logo" width={75}/>
       <strong><em>Gift of Faith Consultants</em></strong>
       </NavLink>    
       <div className="flexCenter h-menu">

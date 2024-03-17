@@ -19,7 +19,7 @@
 /*https://medium.com/@ryaddev/creating-a-stunning-hero-section-in-react-with-styled-components-e84d060f6cdc*/
 
 .lighthero{background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent 10rem),
-  url("warehouse.jpg");
+  url("/warehouse.jpg");
 background-position: center;
 background-size: cover, cover;
 /* background-size:contain;
@@ -34,6 +34,7 @@ padding: 15rem 3rem 6rem;
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  height: 25rem;
 }
 span {
   max-width: 50%;

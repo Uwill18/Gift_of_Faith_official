@@ -68,9 +68,7 @@ const ProjectNav = () => {
     </div>
     </div>
     </nav>
-
     </>
-   
   )
 }
 
