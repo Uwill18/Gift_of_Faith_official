@@ -1,12 +1,9 @@
 import React from 'react'
-import Header from '../../Header/Header'
-import { NavLink } from 'react-router-dom'
-import Home from '../../Home/Home'
-import { HashLink as Link } from 'react-router-hash-link';
 import ProjectHeader from '../../Header/ProjectHeader';
 import ProjectHero from '../ProjectHero/ProjectHero';
 import ProjectNav from '../ProjectNav/ProjectNav';
-import ProjectTypes from '../ProjectTypes/ProjectTypes';
+import ProjectTypeFilter from '../ProjectTypes/ProjectTypeFilter';
+
 
 const Projects = () => {
   return (
@@ -19,13 +16,10 @@ const Projects = () => {
           <ProjectNav/> 
           </div>
            <div className='project-background'>
-          <ProjectTypes/>
+          <ProjectTypeFilter/>
            </div>
-        </div>
-       
-        
+        </div>  
     </div>
-    
   )
 }
 

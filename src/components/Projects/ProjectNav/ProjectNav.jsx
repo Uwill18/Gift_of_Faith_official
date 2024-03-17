@@ -1,8 +1,10 @@
-import React from 'react'
+import { useState } from 'react'; 
 import './ProjectNav.css'
 import {NavLink} from "react-router-dom";
+import Business from '../ProjectGallery/Business';
 
 const ProjectNav = () => {
+  const [selected, setSelected] = useState("allprojects");
   return (
     <>
      <nav className="h-wrapper">
@@ -12,41 +14,52 @@ const ProjectNav = () => {
                 <div className="">
     <NavLink    
          to="/projects/allprojects"
-         style={({ isActive }) => {
-            return isActive ? { color: "plum" } : {color:"white"};
-            }}
+         onClick={()=> setSelected("allprojects")}
+         style={{
+          color: selected === "allprojects" ? "plum" : "white",
+          textDecoration:"inherit",
+      }}
             className="menu-item">
         ALL
         </NavLink>
       <NavLink    
          to="/projects/municipal"
-         style={({ isActive }) => {
-            return isActive ? { color: "plum" } : {color:"white"};
-            }}
+         onClick={()=> setSelected("municipal")}
+         style={{
+          color: selected === "municipal" ? "plum" : "white",
+          textDecoration:"inherit",
+      }}
             className="menu-item">
         MUNICIPAL
         </NavLink>
       <NavLink 
         to="/projects/industrial"
-        style={({ isActive }) => {
-            return isActive ? { color: "plum" } : {color:"white"};
-            }}
+        onClick={()=> setSelected("industrial")}
+        style={{
+          color: selected === "industrial" ? "plum" : "white",
+          textDecoration:"inherit",
+      }}
             className="menu-item">
             INDUSTRIAL
         </NavLink>
       <NavLink 
         to="/projects/business" 
-        style={({ isActive }) => {
-            return isActive ? { color: "plum" } : {color:"white"};
-            }}
+        onClick={()=> setSelected("business")}
+        element={<Business/>}
+        style={{
+          color: selected === "business" ? "plum" : "white",
+          textDecoration:"inherit",
+      }}
             className="menu-item">
                 BUSINESS
             </NavLink>
       <NavLink 
         to="/projects/residential" 
-        style={({ isActive }) => {
-            return isActive ? { color: "plum" } : {color:"white"};
-            }}
+        onClick={()=> setSelected("residential")}
+        style={{
+          color: selected === "residential" ? "plum" : "white",
+          textDecoration:"inherit",
+      }}
             className="menu-item">
                 RESIDENTIAL
             </NavLink>

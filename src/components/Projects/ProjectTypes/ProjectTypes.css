@@ -1,24 +1,48 @@
 /* container */
-.two-columns {
-    columns: 2 auto;
+/* .two-columns {
+    
     display:flex;
     column-gap:2rem;
-}
+} */
 
 /* columns */
-.two-columns > * {
+/* .two-columns > * {
     width:calc(50% - 1rem);
-}
+} */
 
 .project-background{
     background-color:white;
 }
 
 
-/* container */
-/* .two-columns {
-    display:flex;
+/* .business-background{
+  background-color: blue;
 } */
+
+.two-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .two-columns {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .two-columns {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+
+
+
+
+
+
 
 /* columns */
 /* .two-columns > * {

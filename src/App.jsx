@@ -13,6 +13,11 @@ import {BrowserRouter, Routes, Route, Link, NavLink} from "react-router-dom";
 import Projects from "./components/Projects/ProjectGallery/Projects";
 import Home from "./components/Home/Home";
 
+import Municipal from "./components/Projects/ProjectGallery/Municipal";
+import Industrial from "./components/Projects/ProjectGallery/Industrial";
+import Residential from "./components/Projects/ProjectGallery/Residential";
+import Business from "./components/Projects/ProjectGallery/Business";
+
 function App() {
   return (
     <div className="App">
@@ -25,8 +30,12 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path="/projects#home" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
+        <Route path="/projects/allprojects" element={<Projects/>}/>
+        <Route path="/projects/municipal" element={<Municipal/>}/>
+        <Route path="/projects/industrial" element={<Industrial/>}/>
+        <Route path="/projects/business" element={<Business/>}/>
+        <Route path="/projects/residential" element={<Residential/>}/>
         <Route path="/team" element={<Team/>}/>
-        <Route path="/projects#home" element={<Home/>}/>
     </Routes>
     </BrowserRouter>
   {/* </Header> */}
