@@ -10,13 +10,15 @@
       "name": "Asatti Garden City",
       "price": "66,353",
       "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-      "image": "/house.jpg"
+      "image": "/house.jpg",
+      "tag": "business"
     },
     {
       "name": "Citralan Puri Serang",
       "price": "35,853",
       "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-      "image": "/warehouse2.jpg"
+      "image": "/echo_bank.jpg",
+      "tag": "business"
     },
     {
       "name": "Aliva Priva Jardin",

@@ -1,8 +1,12 @@
 import React from 'react';
 import './ProjectTypes.css';
 import data from '../../../utils/image-gallery.json';
+import { useState } from 'react';
+
 
 const ProjectTypeFilter = () => {
+  const [selectedTag, setSelectedTag] = useState(null);
+
   // Define the number of columns based on screen size
   let numColumns = 1;
 
@@ -14,9 +18,14 @@ const ProjectTypeFilter = () => {
 //     numColumns = 3;
 //   }
 
+// Filter the data based on selected tag
+const filteredData = selectedTag ? data.filter(card => card.tag === selectedTag) : data;
+
+
+
   // Split the data into multiple arrays based on the number of columns
   const columnData = Array.from({ length: numColumns }, (_, columnIndex) =>
-    data.filter((_, index) => index % numColumns === columnIndex)
+    filteredData.filter((_, index) => index % numColumns === columnIndex)
   );
 
   return (

@@ -19,7 +19,7 @@
 }
 
 .app_background{
-    background-image: url("construction_blueprint2.jpg");
+    background-image: url("/construction_blueprint2.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: cover; 
