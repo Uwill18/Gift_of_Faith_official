@@ -56,17 +56,17 @@
 }
 
 #contact{
-    margin-top: 50rem;
+    /* margin-top: 30rem; */
 }
 
 @media (max-width:640px){
    #contact{
-    margin-top: 80rem;
+    /* margin-top: 80rem; */
     /* height: 40%; */
     line-height: 1.25rem;
    }
 
    .contact-body{
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
    }
 }

@@ -116,13 +116,19 @@ span > h1{
   }
 
   #about{
-    margin-bottom: 70rem;
+    /* margin-bottom: 40rem; */
+    overflow: auto;
   }
 
+  @media (max-width: 1024px) {
+    .about_section{
+        /* margin-bottom: 5rem; */
+      }
+    }
 
   @media (max-width: 640px) {
     #about{
-        margin-bottom: 30rem;
+        /* margin-bottom: 30rem; */
       }
 
     .about-card-row{
