@@ -16,8 +16,8 @@ const Hero = () => {
 
             <div className="flexColStart hero-des">
             <span><br/>Gift of Faith Consultants is a distinguished Civil and Structural
-<br/>Engineering consultancy that specializes in research, design, supervision,
-<br/> management, and commissioning of Civil and Structural Engineering projects. </span>
+Engineering consultancy that specializes in the research, design, supervision,
+management, and commissioning of Civil and Structural Engineering projects. </span>
             <span></span>
         </div>
         <div className="flexCenter stats">

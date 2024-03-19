@@ -82,6 +82,7 @@ span > h1{
     /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#aaa; */
     margin-left: 9%;
+    display: block;
   }
 
   .mission_column {
@@ -90,6 +91,7 @@ span > h1{
     padding: 10px;
     /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#bbb; */
+    display: block;
   }
 
 
@@ -99,6 +101,7 @@ span > h1{
     padding: 10px;
     /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#ccc; */
+    display: block;
   }
   
   /* Clear floats after the columns */
@@ -106,4 +109,56 @@ span > h1{
     content: "";
     display: table;
     clear: both;
+  }
+
+  .about-card-row{
+    background-color: aliceblue;
+  }
+
+  #about{
+    margin-bottom: 70rem;
+  }
+
+
+  @media (max-width: 640px) {
+    #about{
+        margin-bottom: 30rem;
+      }
+
+    .about-card-row{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+       
+    }
+
+    .history_column{
+        margin:auto;
+    }
+
+    .history_column, .mission_column,.services_column{
+        width: 100%;
+        background-color: aliceblue;
+        margin: auto;
+        /* margin-bottom: 2rem;
+        border: black solid 1px; */
+       
+    }
+
+    span>h1{
+        margin: auto;
+        /* background-color: aliceblue; */
+        margin-bottom: 2rem;
+        background-color: none;
+        border-radius: 0.5rem;
+        /* border: rgb(0, 0, 35) solid 1px;  */
+        width: max-content;
+    }
+
+    span>h2{
+        /* text-align: center; */
+        /* justify-content: center; */
+        margin: auto;
+        display: block;
+    }
   }

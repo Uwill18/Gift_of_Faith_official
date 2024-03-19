@@ -20,7 +20,7 @@ import Business from "./components/Projects/ProjectGallery/Business";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App app_background">
        <div>
       <div className="white-gradient"/>
       {/* <Header> */}

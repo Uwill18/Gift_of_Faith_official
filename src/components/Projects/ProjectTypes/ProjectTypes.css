@@ -14,6 +14,12 @@
     background-color:white;
 }
 
+.r-card{
+  background-color: none;
+  border: midnightblue solid 0.1px;
+  margin-top: 1.5rem;
+}
+
 
 /* .business-background{
   background-color: blue;
@@ -24,6 +30,7 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     margin-left: 25%;
+    
   }
   
   @media screen and (min-width: 768px) {

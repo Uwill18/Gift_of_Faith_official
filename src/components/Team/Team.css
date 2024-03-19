@@ -142,11 +142,23 @@
 }
 
 
-@media screen and (max-width: 200px) {
-    .image-section {
+@media screen and (max-width: 640px) {
+    /* .image-section {
       width: 30%;
     }
     .text-section {
         width: 70%;
+      } */
+
+      .super-container,.card-row{
+        margin: auto;
+        width: 100%;
       }
+
+      .super-container{
+        flex-direction: column-reverse;
+      }
+
+
+    
   } 

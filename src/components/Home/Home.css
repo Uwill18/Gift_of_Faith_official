@@ -13,8 +13,9 @@
 }
 
 .app_background{
-    /* background-image: url("construction_blueprint2.jpg"); */
-    background-repeat: no-repeat;
+    background-image: url("construction_blueprint2.jpg");
+    min-height: 100dvh;
+    /* background-repeat: no-repeat; */
     background-size: 100%;
     object-fit: cover; 
     opacity:0.95;

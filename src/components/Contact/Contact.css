@@ -16,6 +16,7 @@
 }
 
 .contact-body{
+    margin-top: 2rem;
     background-color:  #0c0c0c;
     color: #fff;
     font-family: 'Raleway', sans-serif;
@@ -52,4 +53,20 @@
 
 #name{
     color:white;
+}
+
+#contact{
+    margin-top: 50rem;
+}
+
+@media (max-width:640px){
+   #contact{
+    margin-top: 80rem;
+    /* height: 40%; */
+    line-height: 1.25rem;
+   }
+
+   .contact-body{
+    margin-top: 3rem;
+   }
 }

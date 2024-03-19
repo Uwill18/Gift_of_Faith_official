@@ -18,10 +18,10 @@ import {MdOutlineArrowDropDown} from 'react-icons/md';
 const About = () => {
   return (
 <div className='about_section' id="about">
-  <span className="abouttitle">
+  <span className="about_title">
   <h1>About</h1>
   </span>
-<div className="card-row">
+<div className="about-card-row">
   <div className="history_column">
     <h2>History</h2>
     <p className='description'>Founded in 2006, Gift of Faith Consultants is a Civil and Structural Engineering Consultancy which researches, designs, supervises, manages and commissions Civil and Structural Engineering projects. Gift of Faith Consultants was registered in December 2006 as Gift of Faith Enterprises (Pvt.) Ltd. The company’s shareholders are Engineer Kudzanai Nyikayaramba and Choice Nyikayaramba.

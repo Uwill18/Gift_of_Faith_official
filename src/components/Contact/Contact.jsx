@@ -34,7 +34,7 @@ const Contact = () => {
         <Container >
           <Row className='mb-5 mt-3'>
             <Col lg='8'>
-              <h1 className='display-4 mb-4 mt-5'>
+              <h1 className='display-4 mb-2 mt-2'>
                 Contact Us
               </h1>
             </Col>
@@ -65,6 +65,7 @@ Thank you for your interest in contacting us! We look forward to assisting you.<
                       name="your_name"
                       placeholder='Name'
                       type="text"
+                      autoComplete='given-name'
                     />
                   </Col>
                   <Col lg='6' className='form-group'>
@@ -74,6 +75,7 @@ Thank you for your interest in contacting us! We look forward to assisting you.<
                       name="your_email"
                       placeholder='Email'
                       type="email"
+                      autoComplete='on'
                     />
                   </Col>
                 </Row>
