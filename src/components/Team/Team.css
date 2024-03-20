@@ -61,20 +61,6 @@
    
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .super-container{
     width:50%;
     position: relative;
@@ -143,13 +129,6 @@
 
 
 @media screen and (max-width: 640px) {
-    /* .image-section {
-      width: 30%;
-    }
-    .text-section {
-        width: 70%;
-      } */
-
       .super-container,.card-row{
         margin: auto;
         width: 100%;
@@ -159,6 +138,4 @@
         flex-direction: column-reverse;
       }
 
-
-    
   } 
