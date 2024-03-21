@@ -39,7 +39,7 @@ padding: 15rem 3rem 6rem;
 span {
   max-width: 50%;
 }
-.Projects_title, .hero-title {
+.Projects_title {
   font-weight: 400;
   font-size: clamp(2rem, 5.5vw, 3.25rem);
   line-height: 1.2;

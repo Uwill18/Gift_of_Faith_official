@@ -20,9 +20,8 @@ import Business from "./components/Projects/ProjectGallery/Business";
 
 function App() {
   return (
-    <div className="App app_background">
-       <div>
-      <div className="white-gradient"/>
+    <div className="App">
+       <div className="">
       {/* <Header> */}
     <BrowserRouter>
     <Routes>

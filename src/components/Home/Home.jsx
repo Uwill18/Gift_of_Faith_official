@@ -12,8 +12,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='Home' id="home">
-    <div>
-    <div className=""/>
+    <div className=''>
     <Header/>
     <Hero/>
     </div>
@@ -22,10 +21,10 @@ const Home = () => {
     <Residencies/>
     <Team/>
     <About/>
-    <Contact/>
-
+  </div> 
+  <Contact/>
   </div>
-  </div>
+  
   )
 }
 

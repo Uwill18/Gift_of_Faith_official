@@ -1,14 +1,17 @@
 .h-wrapper{
-    background: var(--black);
-    color: white;
-    z-index: 99;
+    /* background: var(--black);
+    color: white; */
+    background-color: white;
+    color: black;
+    /* z-index: 99; */
 }
 
 .h-container{
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: var(--secondary);   
+    
+    /* color: var(--secondary);    */
 }
 
 .h-menu{
@@ -43,9 +46,11 @@ img{
         position: absolute;
         top: 3rem;
         right: 4rem;
-        background: white;
+        background-color: white;
+        color: black;
         flex-direction: column;
         font-weight: 500;
+        /* font-size: 1.5rem; */
         gap: 2rem;
         padding: 3rem;
         border-radius: 10px;

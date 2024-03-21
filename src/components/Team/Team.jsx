@@ -9,6 +9,7 @@ const Team = () => {
       <span className="teamname">
          <h1>Meet the Team!</h1>
       </span>
+      <div className="mega-container">
       <div className='super-container'>
       <div className="card-row">
       <div className="image-section">
@@ -25,7 +26,7 @@ const Team = () => {
       <br/>
       <br/>
 
-      <div className='super-container'>
+      <div className='super-container-b' id='col-rev'>
       <div className="card-row">
       <div className="image-section-c">
       <div className="text-section">
@@ -34,15 +35,18 @@ const Team = () => {
         </div>
         </div>
       <div className="container-b">
-      <div className="text-section">
+      
       <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
         </div>
-        </div>
+        
        </div>
        
       </div>
       <br/>
       <br/>
+
+      </div>
+
 
       {/* <div className='super-container'>
       <div className="card-row">

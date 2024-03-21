@@ -10,11 +10,20 @@ const Hero = () => {
     <div className="paddings innerWidth flexCenter hero-container">
      {/* left side */}
         <div className="flexColStart hero-left">
-            <div className="hero-title">
+            <div className="">
                 <h1><em>A Spirit of excellency</em> <br/><em>equals excellent products!</em><br/></h1>
             </div>
 
-            <div className="flexColStart hero-des">
+                          {/* right side */}
+                          <div className="flexCenter hero-right">
+            <div className="image-container">
+                <img src="./UMC3.jpg" alt=""/>
+            </div>
+        </div>
+
+        
+
+        <div className="flexColStart hero-des">
             <span><br/>Gift of Faith Consultants is a distinguished Civil and Structural
 Engineering consultancy that specializes in the research, design, supervision,
 management, and commissioning of Civil and Structural Engineering projects. </span>
@@ -48,15 +57,7 @@ management, and commissioning of Civil and Structural Engineering projects. </s
             <div/>
           </div>
         </div>
-
-
-
-        {/* right side */}
-        <div className="flexCenter hero-right">
-            <div className="image-container">
-                <img src="./UMC3.jpg" alt=""/>
-            </div>
-        </div>
+        
 
     </div>
    </section>

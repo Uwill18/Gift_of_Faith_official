@@ -1,11 +1,11 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './Contact.css';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
-  const [val,setVal] = useState("Hello there");
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -66,8 +66,7 @@ Thank you for your interest in contacting us! We look forward to assisting you.<
                       name="your_name"
                       placeholder='Name'
                       type="text"
-                      value={val}
-                      // autoComplete='given-name'
+                      autoComplete='given-name'
                     />
                   </Col>
                   <Col lg='6' className='form-group'>
@@ -77,7 +76,7 @@ Thank you for your interest in contacting us! We look forward to assisting you.<
                       name="your_email"
                       placeholder='Email'
                       type="email"
-                      // autoComplete='on'
+                      autoComplete='on'
                     />
                   </Col>
                 </Row>
