@@ -66,10 +66,22 @@
     margin-left: 7.5%;
 }
 
-span > h1{
+
+
+.about_title{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3rem 3rem 0rem 0rem;
+    width: 82.5%;
     text-align: center;
     margin-top: 10rem;
-    margin-bottom: 5.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 8px;
+}
+
+div>h2{
+    text-align: center;
 }
 
 
@@ -81,8 +93,9 @@ span > h1{
     padding: 10px;
     /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#aaa; */
-    margin-left: 9%;
+    margin-left: 8.75%;
     display: block;
+    border-radius: 0rem 0rem 0rem 3rem;
   }
 
   .mission_column {
@@ -102,6 +115,7 @@ span > h1{
     /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#ccc; */
     display: block;
+    border-radius: 0rem 0rem 3rem 0rem;
   }
   
   /* Clear floats after the columns */
@@ -111,14 +125,19 @@ span > h1{
     clear: both;
   }
 
-  .about-card-row{
+  .history_column, .mission_column,.services_column{
     background-color: aliceblue;
+    height: 35rem;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
   }
 
   #about{
     /* margin-bottom: 40rem; */
     overflow: auto;
   }
+
+ 
 
   @media (max-width: 1024px) {
     .about_section{
@@ -148,23 +167,38 @@ span > h1{
         margin: auto;
         /* margin-bottom: 2rem;
         border: black solid 1px; */
-       
     }
 
-    span>h1{
+    .column_header{
+        text-align: center;
+    }
+
+    .about_title{
+        background-color: rgba(0,0,0,0.92);
+        color: aliceblue;
+        border-radius: 0rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 10rem;
+        /* margin-left: auto;
+        margin-right: auto; */
+        padding: 16px 8px;
+    }
+
+    /* span>h1{
         margin: auto;
         /* background-color: aliceblue; */
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem;
         background-color: none;
-        border-radius: 0.5rem;
+        border-radius: 0.5rem; */
         /* border: rgb(0, 0, 35) solid 1px;  */
-        width: max-content;
-    }
+        /* width: max-content; */
+   /* } 
 
     span>h2{
         /* text-align: center; */
         /* justify-content: center; */
-        margin: auto;
+        /* margin: auto;
         display: block;
-    }
+    } */
   }

@@ -7,27 +7,33 @@ import CountUp from 'react-countup';
 const Hero = () => {
   return (
    <section className='hero-wrapper'>
+
+<div className="paddings innerWidth flexCenter  hero-left">
+<h1><em>A Spirit of excellency</em> <br/><em>equals excellent products!</em><br/></h1>
+                {/* <h1><em>A Spirit of excellency</em> <br/><em>equals excellent products!</em><br/></h1> */}
+            </div>
     <div className="paddings innerWidth flexCenter hero-container">
      {/* left side */}
         <div className="flexColStart hero-left">
-            <div className="">
-                <h1><em>A Spirit of excellency</em> <br/><em>equals excellent products!</em><br/></h1>
-            </div>
+
 
                           {/* right side */}
-                          <div className="flexCenter hero-right">
+                          <div className="">
             <div className="image-container">
                 <img src="./UMC3.jpg" alt=""/>
             </div>
         </div>
 
-        
 
-        <div className="flexColStart hero-des">
-            <span><br/>Gift of Faith Consultants is a distinguished Civil and Structural
+
+
+    </div>
+
+    <div className='hero-des-container flexCenter hero-right'>
+    <div className=" hero-des">
+            <span>Gift of Faith Consultants is a distinguished Civil and Structural
 Engineering consultancy that specializes in the research, design, supervision,
 management, and commissioning of Civil and Structural Engineering projects. </span>
-            <span></span>
         </div>
         <div className="flexCenter stats">
             <div className="flexColCenter stat">
@@ -57,6 +63,7 @@ management, and commissioning of Civil and Structural Engineering projects. </s
             <div/>
           </div>
         </div>
+
         
 
     </div>

@@ -60,7 +60,6 @@
     border-radius: 0px 20px 20px 0px;
     /* box-shadow: 16px 1px 12px 0px rgba(0, 0, 0, .75); */
     /* box-shadow: 16px 1px 12px 0px rgba(0, 0, 0, .75); */
-   
   }
 
   .super-container{
@@ -116,6 +115,20 @@
    font-size: 30px;
   }
 
+  span > h1{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: aliceblue;
+    width: 50%;
+    border-radius: 0.5rem;
+    padding: 8px 16px;
+
+}
+
   .card-img-top{
     border-radius: 50%; 
     display: flex;
@@ -148,6 +161,9 @@
          display: flex;    
          /* width: 340px; */
       }
+
+     
+
 
       .super-container{
         flex-direction: column-reverse;

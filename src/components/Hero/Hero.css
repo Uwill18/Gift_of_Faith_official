@@ -5,6 +5,8 @@
     /* background-color: var(--black); */
     background-color: white;
     color: black;
+    
+    /* text-align: center; */
 }
 
 
@@ -14,6 +16,11 @@
     align-items: flex-end; */
     /* z-index: 1; */
     justify-content: space-between; 
+    align-items: flex-end;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    width: 100%;
+    /* display: inline-block; */
 }
 
 .stats{
@@ -26,7 +33,7 @@
 }
 
 .stat>:nth-child(1)>:last-child{
-    color:rgba(149, 3, 3, 0.66);
+    color:#B59410;
 }
 
 
@@ -34,10 +41,25 @@
 .hero-left{
     gap: 3rem;
     float: left;
+    margin-left: -5.5%;
+    /* border: 2px red solid; */
+    /* float: left; */
+}
+
+
+
+.ht{
+    /* font-size: 1.2rem; */
+    width: min-content;
+    margin-left: 3%;
+    display: block;
+    position: absolute;
+    /* margin: auto; */
 }
 
 .hero-title{
     justify-content: space-between;
+    z-index: 1; 
     /* position: relative;
     z-index: 1; */
     /* display: block;
@@ -52,7 +74,13 @@
 }
 
 .hero-right{
-    float: right;
+    /* float: right; */
+    /* display: inline-block; */
+    margin-left: 4%;
+    margin-bottom: 5rem;
+    /* border: 2px red solid; */
+    width: 62%;
+
 }
 
 
@@ -84,7 +112,7 @@
     height: 35rem;
     overflow: hidden;
     border-radius: 15rem 15rem 0 0;
-    border: 8px solid rgba(255,255,255,0.12);
+    border: 8px solid rgba(0,0,0,0.95);
 }
 
 /*reduces image within image container*/
@@ -97,6 +125,12 @@
     display: block;
     font-size: 1.5rem;
     line-height: 3rem;
+    align-items: right;
+    flex-direction: row;
+}
+
+.hero-des-container{
+    float: right;
 }
 
 @media(max-width: 640px){ 
@@ -112,9 +146,17 @@
         line-height: 1rem;
         align-items: center;
     }
+    div>h1{
+        margin-left: 11.5%;
+        width: 100%;
+        align-items: center;
+    }
+
+
     .image-container{
         width:95%;
-        height:25rem;  
+        height:25rem; 
+        margin-left: auto; 
     }
     .stats{
         justify-content: center;

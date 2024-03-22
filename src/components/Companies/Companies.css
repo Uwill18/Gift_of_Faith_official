@@ -6,3 +6,8 @@
 .c-container>img{
     width: 9rem;
 }
+
+.img_background{
+    background-color: white;
+    width:200;
+}
