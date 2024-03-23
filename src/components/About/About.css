@@ -3,6 +3,11 @@
     text-align: left;
 }
 
+.about-card-row{
+    display: table;
+    width: 100%;
+}
+
 
 .description{
     text-align: left;
@@ -26,7 +31,6 @@
     overflow: hidden;
     border-radius:15rem 0rem 0rem 0rem;
     border: 4px solid rgba(7, 0, 0, 0.903); 
-
     flex-wrap: wrap; 
     /* float: left; */
 }
@@ -67,23 +71,41 @@
 }
 
 
-
 .about_title{
     background-color: black;
     color: aliceblue;
     border-radius: 3rem 3rem 0rem 0rem;
-    width: 82.5%;
-    text-align: center;
+    width: 90%;
+    /* text-align: center; */
     margin-top: 10rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 16px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border: 5px black 3rem 3rem 0rem 0rem ;
+    font-size: 32px;
 }
 
 div>h2{
     text-align: center;
 }
 
+.about_container{
+    display: table;
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 32px;
+    margin-bottom: 3.5rem;
+    border-radius: 0rem 0rem 3rem 3rem;
+    
+}
+
+.about_column{
+    display: table-cell;
+}
 
 
 
@@ -105,6 +127,8 @@ div>h2{
     /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#bbb; */
     display: block;
+
+
   }
 
 
@@ -115,7 +139,8 @@ div>h2{
     /*height: 300px; /* Should be removed. Only for demonstration */
     /* background-color:#ccc; */
     display: block;
-    border-radius: 0rem 0rem 3rem 0rem;
+    border-radius: 0rem;
+   
   }
   
   /* Clear floats after the columns */
@@ -127,9 +152,10 @@ div>h2{
 
   .history_column, .mission_column,.services_column{
     background-color: aliceblue;
-    height: 35rem;
+    display: table-cell;
     margin-bottom: 5rem;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
   }
 
   #about{
@@ -161,10 +187,12 @@ div>h2{
         margin:auto;
     }
 
+
     .history_column, .mission_column,.services_column{
         width: 100%;
         background-color: aliceblue;
         margin: auto;
+        overflow: hidden;
         /* margin-bottom: 2rem;
         border: black solid 1px; */
     }
@@ -173,17 +201,29 @@ div>h2{
         text-align: center;
     }
 
-    .about_title{
+    .about_column_mobile{
+        display: block;
+    }
+
+    /* .about_title{
         background-color: rgba(0,0,0,0.92);
         color: aliceblue;
-        border-radius: 0rem;
-        width: 100%;
         text-align: center;
+        width: 80%;
         margin-top: 10rem;
-        /* margin-left: auto;
-        margin-right: auto; */
-        padding: 16px 8px;
-    }
+        margin-bottom: 3.5rem;
+        /* margin: auto; */
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        /* padding: 8px 8px; */
+        /* border-radius: 0.5rem; */
+    /*} 
+
+    .about_container{
+        /* display: none; */
+   /* }
+
+   
 
     /* span>h1{
         margin: auto;

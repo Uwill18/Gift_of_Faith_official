@@ -1,13 +1,25 @@
+.c-wrapper{
+    background-color: white;
+}
+
 .c-container{
     justify-content: space-around;
-    gap: 1rem;
+    gap: 2rem; 
+    background-color: white;
 }
 
 .c-container>img{
     width: 9rem;
+    /* background-color: white;
+    height: 7.5rem;
+    padding: 2rem;
+    border-radius: 1.25rem; */
 }
 
 .img_background{
     background-color: white;
-    width:200;
+    width: min-content;
+    height: 15rem;
+    margin: auto;
+    align-items: center;
 }

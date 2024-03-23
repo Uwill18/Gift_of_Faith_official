@@ -8,7 +8,7 @@ const Hero = () => {
   return (
    <section className='hero-wrapper'>
 
-<div className="paddings innerWidth flexCenter  hero-left">
+<div className="paddings innerWidth flexCenter">
 <h1><em>A Spirit of excellency</em> <br/><em>equals excellent products!</em><br/></h1>
                 {/* <h1><em>A Spirit of excellency</em> <br/><em>equals excellent products!</em><br/></h1> */}
             </div>
