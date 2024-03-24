@@ -20,8 +20,6 @@ const Residencies = () => {
                             <div className="flexColStart r-card">
                                 <img src={card.image} alt="Building Project" height={200} />
                                 <span className="secondaryText r-price">
-                                    <span style={{color:"orange"}}>$</span>
-                                    <span>{card.price}</span>
                                     </span>
                                     <span className="primaryText">{card.name}</span>
                                     <span className="secondaryText">{card.detail}</span>

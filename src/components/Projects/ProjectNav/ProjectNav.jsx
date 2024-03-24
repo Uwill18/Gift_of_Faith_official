@@ -14,7 +14,7 @@ const ProjectNav = () => {
 
   return (
     <>
-      <nav className="h-wrapper">
+      <nav className="p-wrapper">
         <div className="pn-flexCenter pn-paddings h-container">
           <div>
             <div className="pn-flexCenter h-menu">

@@ -10,6 +10,18 @@
 }
 
 
+.p-wrapper{
+    /* background: var(--black);
+    color: white; */
+    background-color: white;
+    color: black;
+     /* Set the navbar to fixed position */
+     /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+}
+
+
 .h-container{
     justify-content: space-between;
     padding-top: 1rem;

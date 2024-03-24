@@ -18,6 +18,7 @@ import Industrial from "./components/Projects/ProjectGallery/Industrial";
 import Residential from "./components/Projects/ProjectGallery/Residential";
 import Business from "./components/Projects/ProjectGallery/Business";
 
+
 function App() {
   return (
     <div className="App">
