@@ -32,24 +32,26 @@ const Header = () => {
       <strong><em>Gift of Faith Consultants</em></strong>
       </NavLink>
 
-      </span>      
+      </span>    
+   
       {/* <OutsideClickHandler
       onOutsideClick={()=>{setmenuOpened(false)}}
-      > */}
-      <div className="flexCenter h-menu"
-      /**style={getMenuStyles(menuOpened)}*/>
-        <NavLink to="/" element={<Home/>}>Home</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-        <Link to="#team" element={<Team/>}>Team</Link>
-        <Link to="#about">About</Link>
-        <button className="button"><Link to="#contact">Contact</Link></button>
-      </div>
-      {/* </OutsideClickHandler> */}
-     
-      <div className="menu-icon"
-      onClick={()=>setmenuOpened((prev)=>!prev)}>
+      > */}     <div className="menu-icon"
+      onClick={()=>setmenuOpened(!menuOpened)}>
       <BiMenuAltRight size={30} className='mobile-nav'/>
     </div>
+
+      <div className={menuOpened ? "open" : ""}>
+      <div className="flexCenter h-menu">
+        <NavLink to="/" element={<Home/>} className="">Home</NavLink>
+        <NavLink to="/projects" className="mobile-options">Projects</NavLink>
+        <Link to="#team" element={<Team/>} className="mobile-options">Team</Link>
+        <Link to="#about" className="mobile-options">About</Link>
+        <button className="button mobile-options"><Link to="#contact">Contact</Link></button>
+        </div>
+    
+      </div>
+      {/* </OutsideClickHandler> */}
     </div>
 
   </nav>
