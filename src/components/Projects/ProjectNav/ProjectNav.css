@@ -6,6 +6,7 @@
   .topnav {
     float: left;
     color: #f2f2f2;
+    background-color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -13,17 +14,17 @@
     justify-content: space-between;
   }
   
-  .topnav :hover {
-    background-color: #ddd;
-    color: black;
+  .menu-item :hover{
+    /* background-color: #ddd; */
+    color: plum;
     justify-content: space-between;
   }
   
-  .topnav a.active {
+  /* .topnav a.active {
     background-color: #04AA6D;
     color: white;
     justify-content: space-between;
-  }
+  } */
 
   .h-wrapper{
     background: var(--black);
@@ -33,8 +34,8 @@
 .p-wrapper{
   /* background: var(--black);
   color: white; */
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   width: 100%; /* Full width */
   z-index: 100;
   border-color: 2px solid red;

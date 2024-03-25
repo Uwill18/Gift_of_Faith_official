@@ -1,45 +1,45 @@
 
 [
-    {
-      "name": "Aliva Priva Jardin",
-      "price": "47,043",
-      "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-      "image": "/warehouse.jpg"
-    },
-    {
-      "name": "Asatti Garden City",
-      "price": "66,353",
-      "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-      "image": "/house.jpg",
-      "tag": "business"
-    },
-    {
-      "name": "Citralan Puri Serang",
-      "price": "35,853",
-      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-      "image": "/echo_bank.jpg",
-      "tag": "business"
-    },
-    {
-      "name": "Aliva Priva Jardin",
-      "price": "47,043",
-      "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-      "image": "/warehouse.jpg"
-    },
-    {
-      "name": "Asatti Garden City",
-      "price": "66,353",
-      "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-      "image": "/house.jpg"
-    },
-    {
-      "name": "Citralan Puri Serang",
-      "price": "35,853",
-      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-      "image": "/warehouse2.jpg"
-    }
-  ]
-  
+  {
+    "name": "PROJECT",
+    "price": "47,043",
+    "detail": "This project entails meticulous inspection, innovative structural analysis, and preservation techniques to breathe new life into an aging yet iconic infrastructure.",
+    "image": "/warehouse.jpg"
+  },
+  {
+    "name": "PROJECT",
+    "price": "66,353",
+    "detail": "Witness the revitalization of downtown areas with pedestrian-friendly streetscapes, decorative lighting, and outdoor seating amenities. ",
+    "image": "/house.jpg",
+    "tag": "business"
+  },
+  {
+    "name": "PROJECT",
+    "price": "35,853",
+    "detail": "Witness the modernization of streets, sidewalks, and utilities to improve safety, accessibility, and quality of life for residents.",
+    "image": "/echo_bank.jpg",
+    "tag": "business"
+  },
+  {
+    "name": "PROJECT",
+    "price": "47,043",
+    "detail": "This project entails meticulous inspection, innovative structural analysis, and preservation techniques to breathe new life into an aging yet iconic infrastructure.",
+    "image": "/warehouse.jpg"
+  },
+  {
+    "name": "PROJECT",
+    "price": "66,353",
+    "detail": "Witness the revitalization of downtown areas with pedestrian-friendly streetscapes, decorative lighting, and outdoor seating amenities. ",
+    "image": "/house.jpg"
+  },
+  {
+    "name": "PROJECT",
+    "price": "35,853",
+    "detail": "Witness the modernization of streets, sidewalks, and utilities to improve safety, accessibility, and quality of life for residents.",
+    "image": "/warehouse2.jpg"
+  }
+]
+
 
 
 

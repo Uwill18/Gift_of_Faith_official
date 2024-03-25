@@ -153,6 +153,7 @@ div>h1{
 
     .hero-right{
         width: auto;
+        max-width: fit-content;
     }
 
 
