@@ -29,6 +29,7 @@ a {
 
 .innerWidth {
   width: 100%;
+  color: inherit;
 }
 
 .flexCenter {
@@ -37,6 +38,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  color: inherit;
 }
 .flexStart {
   display: flex;
