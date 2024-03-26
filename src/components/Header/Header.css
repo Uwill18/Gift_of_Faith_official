@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .h-wrapper{
     /* background: var(--black);
     color: white; */
@@ -9,7 +16,7 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    z-index: 99;
+    z-index: 9999;
 }
 
 
@@ -50,8 +57,7 @@
     font-weight: 200;
     font-size: 2.5rem; 
     display: flex;
-    z-index: 99999;
-    background-color: black;
+    z-index: 9999;
 }
 
 img{
@@ -64,6 +70,7 @@ img{
 
 .mobile-options{
     text-decoration: none;
+    list-style-type: none;
     color: white;
     font-size: 20px;
     padding: 10px 20px;
@@ -72,15 +79,16 @@ img{
 }
 
 
+
+
 @media screen and (max-width: 780px){
     .companyName{
         display: flex;
         position: absolute;
         top: 15px;
         left: 35px;
-        background-color: black;
         color:white;
-        z-index: 9999;
+        /* z-index: 99999; */
     }
 
 
@@ -90,22 +98,41 @@ img{
         position: absolute;
         color: white;
         background-color: black;
+        font-size: 1.75rem;
         border:none;
         outline: none;
-        /* top:15px; */
+        top:15px; 
         right:25px;
         z-index: 4;
+        display: none;
+        /* display: none; */
+    }
+
+    .menu-icon i{
+        color:white;
+        font-size: 1.75rem;
+        display:none;
     }
 
     .h-menu{
-        display: none;
+        /* display: none;
+        position:absolute;
+        top:70px; */
+        margin-top: 7.5rem;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        background-color: rgba(0, 0, 0, 0.2);
     }
 
     .h-menu-mobile{
         position: absolute;
         display: block;
         list-style: none;
-        background-color: black;
+        /* background-color: black; */
+        background-color: rgba(0, 0, 0, 0.8);
         color:white;
         left: 0;
         top:75px;
@@ -120,7 +147,7 @@ img{
 
     .mobile-options{
         /* color: white; */
-        background-color: black;
+        /* background-color: black; */
         width: 100%;
         text-align: center;
         /* background-color: gray; */
@@ -131,7 +158,9 @@ img{
     }
 
     .button{
-        
+        margin-left: auto;
+        margin-right: 2.5rem;
+        text-align: center;
     }
 
     nav {
@@ -145,6 +174,7 @@ img{
 
 
     .h-menu{
+       
         /* display: none; */
         /* flex-direction: column;
         width: 100%; */
@@ -177,6 +207,8 @@ img{
         
     }
 
-    
+    #menuList{
+        transition: all 0.5s;
+    }
     
 }

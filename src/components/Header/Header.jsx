@@ -8,11 +8,12 @@ import Home from '../Home/Home';
 import Team from '../Team/Team';
 import {BiMenuAltRight} from 'react-icons/bi';
 import OutsideClickHandler from 'react-outside-click-handler';
+import { Helmet } from 'react-helmet';
 
 
 const Header = () => {
 
-  const[isMobile, setIsMobile] = useState(true);
+  const[isMobile, setIsMobile] = useState(false);
 
   /**if the menu is less than 800px, then 
    * allow the menu to slide 100px off screen
@@ -36,40 +37,53 @@ const Header = () => {
       
 
       <div>
-      <ul className={isMobile ? "h-menu-mobile" : "flexCenter h-menu"}>
-        <NavLink to="/" element={<Home/>} className="mobile-options">
-          <li>Home</li>
+      <ul className={isMobile ? "h-menu-mobile" : "h-menu"} id="menuList">
+        <NavLink to="/" element={<Home/>} >
+          <li className="mobile-options">Home</li>
           </NavLink>
-        <NavLink to="/projects" className="mobile-options">
-          <li>Projects</li>
+        <NavLink to="/projects" >
+          <li className="mobile-options">Projects</li>
           </NavLink>
-        <Link to="#team" element={<Team/>} className="mobile-options">
-          <li>Team</li>
+        <Link to="#team" element={<Team/>} >
+          <li className="mobile-options">Team</li>
           </Link>
-        <Link to="#about" className="mobile-options">
-          <li>About</li>
+        <Link to="#about" >
+          <li className="mobile-options">About</li>
           </Link>
         
           <Link to="#contact">
-          <button className="mobile-options button ">
-            <li>Contact</li>
+          <li className="mobile-options">
+          <button className="button">
+            Contact
             </button>
+            </li>
           </Link>
           
         </ul>
-        <button className="menu-icon"
+        <div className="menu-icon">
+          <i className="fa-solid fa-bars" onClick={()=>toggleMenu()}>
+          </i>
+        </div>
+        
+
+             {/* <button className="menu-icon"
         onClick={()=>setIsMobile(!isMobile)}>
         {isMobile ? (<i className='fas fa-times'></i>) 
-        : (<i className='fas fa-bars'></i>)  }
+        : (<i className='fa-solid fa-bars'></i>)  }
+        </button> */}
+
+       
       {/* <BiMenuAltRight size={30} className='mobile-nav'/> */}
-    </button>
+    
     
       </div>
       {/* </OutsideClickHandler> */}
     </div>
+   
 
   </nav>
   
+
   )
 }
 
