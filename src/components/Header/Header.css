@@ -1,34 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 .h-wrapper{
-    /* background: var(--black);
-    color: white; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-    color: white; 
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    z-index: 9999;
-}
-
-
-.p-wrapper{
     /* background: var(--black);
     color: white; */
     background-color: white;
     color: black;
-     /* Set the navbar to fixed position */
-     /* Position the navbar at the top of the page */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    z-index: 100;
+    z-index: 99;
 }
 
 
@@ -42,11 +20,6 @@
 
 .h-menu{
     gap: 2rem;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    list-style: none;
-  
 }
 
 .h-menu >*:hover{
@@ -55,7 +28,7 @@
 
 .companyName{
     font-weight: 200;
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
 }
 
 img{
@@ -67,112 +40,10 @@ img{
 }
 
 
-
-
-
-
-@media screen and (max-width: 1024px){
-    .companyName{
-        display: flex;
-        position: absolute;
-        top: 15px;
-        left: 35px;
-        color:white;
-        z-index: 99999;
-        word-wrap: break-word;
-    }
-
-
-
+@media(max-width: 640px){
     .menu-icon{
         display: block;
-        position: absolute;
-        color: white;
-        background-color: inherit;
-        font-size: 1.75rem;
-        border:none;
-        outline: none;
-        top:15px; 
-        right:25px;
-        z-index: 100;
-        /* display: none; */
-        /* display: none; */
-    }
-
-    .menu-icon i{
-        color:white;
-        font-size: 1.75rem;
-        /* display:none; */
-    }
-
-    .h-menu{
-        /* display: none; */
-        position:absolute;
-        top:70px;
-        margin-top: 7.5rem;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        text-align: center;
-        gap: 0;
-        /* background-color: rgba(0, 0, 0, 0.2); */
-        /* display: none; */
-        /* height: 100px;
-        z-index: 100; */
-    }
-
-    .h-menu-mobile{
-        /* position: absolute; */
-        display: block;
-        list-style: none;
-        /* background-color: black; */
-        /* background-color: rgba(0, 0, 0, 0.8); */
-        color:white;
-        left: 0;  
-         top:75px;
-        /* transition: all 0.5s ease-in-out; */
-        padding: 32px;
-        width: 100%;
-        transition: all 0.5s ease;
-        text-align: center;
-        /* display: none; */
-        /* z-index: -1; */
-    }   
-
-
-    .mobile-options{
-        /* position: absolute; */
-        display: block;
-        list-style: none;
-        /* background-color: black; */
-        /* background-color: rgba(0, 0, 0, 0.8); */
-        color:white;
-        /* left: 0;  */
-        /* top:75px; */
-        /* transition: all 0.5s ease-in-out; */
-        padding: 32px;
-        width: 100%;
-        transition: all 0.5s ease;
-        text-align: center;
-        /* display: none; */
-        /* z-index: -1; */
-    }  
-    
-
-
-
-
-    .h-wrapper{
-        /* background-color: black; */
-    }
-
-
-
-
-    .button{
-        /* margin-left: auto;
-        margin-right: 2.5rem;
-        text-align: center; */
+        z-index: 4;
     }
 
     nav {
@@ -180,13 +51,8 @@ img{
         align-items: start; */
     }
 
-    .mobile-nav{
-
-    }
-
 
     .h-menu{
-       
         /* display: none; */
         /* flex-direction: column;
         width: 100%; */
@@ -210,17 +76,19 @@ img{
         /* transition: all 300ms ease-in-out; */
     }
 
- 
+    .mobile-options{
+        /* width: 100%;
+        text-align: center;
+        background-color: gray;
+        padding: 32px;
+        margin:0.2rem 0.5rem; */
+    }
 
     nav div.open{
         /* display: flex;
         flex-direction: column;
         padding: 16px; */
         
-    }
-
-    #menuList{
-        /* transition: all 0.5s; */
     }
     
 }
